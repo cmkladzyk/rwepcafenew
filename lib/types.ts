@@ -19,7 +19,7 @@ export type Place = {
   tags?: Array<'remote-friendly' | 'late-hours' | 'early-hours' | 'good-lighting' | 'power-user' | string>;
   lastVerifiedAt?: string;
   score?: number;
-  source?: 'seed' | 'osm' | 'user';
+  source?: 'seed' | 'osm' | 'user' | 'google';
 };
 
 export type AccessibilityFilter = {

@@ -29,7 +29,15 @@ npm run test
 
 ### Data source
 
-Seed data lives in `seed/places.json` and is loaded through `lib/repository.ts`. Swap in Postgres or an external data feed by replacing the repository module while keeping the same interface.
+Seed data lives in `seed/places.json` and is loaded through `lib/repository.ts`. If you provide a Google Places API key via `GOOGLE_PLACES_API_KEY`, the repository will hydrate the catalog with live café listings around El Paso (fetched from the Places Text Search API) and merge them with the seed data. Swap in Postgres or an external data feed by replacing the repository module while keeping the same interface.
+
+Create a `.env.local` file to enable Google Places lookups:
+
+```env
+GOOGLE_PLACES_API_KEY=your-api-key
+```
+
+Requests are deduplicated and cached in memory so the external API is queried at most once per server instance.
 
 ### Future integrations
 
