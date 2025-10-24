@@ -1,0 +1,124 @@
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(246, 248, 250, 0.95);
+  backdrop-filter: blur(6px);
+  padding: 1rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.controls {
+  display: grid;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  font-size: 1rem;
+}
+
+.select,
+.checkbox,
+.range,
+.numberInput {
+  font-size: 0.95rem;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chipButton {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.2);
+  background: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.chipActive {
+  background: #1d4ed8;
+  color: white;
+  border-color: #1d4ed8;
+}
+
+.sortSelect {
+  padding: 0.4rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+}
+
+.resetButton {
+  margin-left: auto;
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.locationBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.locationActions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.primaryButton {
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  background: white;
+  cursor: pointer;
+}
+
+.rangeInput {
+  width: 180px;
+}
+
+.statusMessage {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+@media (max-width: 900px) {
+  .container {
+    position: static;
+  }
+}
