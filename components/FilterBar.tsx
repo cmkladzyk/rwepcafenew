@@ -1,6 +1,6 @@
 'use client';
 
-import { ChangeEvent } from 'react';
+import React, { ChangeEvent } from 'react';
 import styles from './FilterBar.module.css';
 import type { PlacesQuery } from '@/lib/types';
 
