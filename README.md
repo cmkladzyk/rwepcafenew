@@ -19,6 +19,42 @@ Then open [http://localhost:3000](http://localhost:3000) to explore the app.
 - `npm run lint` – run ESLint with the Next.js core-web-vitals config
 - `npm run test` – execute Vitest unit/integration tests
 
+### Resolving merge conflicts
+
+If your branch diverges from `main` (for example, GitHub reports conflicts in
+files such as `README.md`, `components/FilterBar.tsx`, or `seed/places.json`),
+resolve the conflicts locally before pushing again:
+
+1. Fetch the latest changes and merge them into your branch:
+
+   ```bash
+   git fetch origin
+   git merge origin/main
+   ```
+
+2. Git pauses the merge when a file has competing edits. Open each reported
+   file, look for the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), and
+   decide how to combine the two versions. Remove the markers after keeping the
+   desired code.
+
+3. When every conflict is cleared, mark the files as resolved and complete the
+   merge:
+
+   ```bash
+   git add <file1> <file2> ...
+   git commit
+   ```
+
+4. Finally, rerun the automated checks and push the merged branch:
+
+   ```bash
+   npm test
+   git push
+   ```
+
+These steps mirror the GitHub UI prompts shown during a conflicted merge and
+keep your branch aligned with the canonical history.
+
 ### Testing
 
 Vitest is configured with React Testing Library and jsdom. Coverage focuses on scoring helpers, filter serialization, component behavior, and the API route. Run tests with:
