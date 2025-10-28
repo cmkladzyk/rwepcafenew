@@ -1,0 +1,33 @@
+.mapContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mapRoot {
+  position: absolute;
+  inset: 0;
+}
+
+.controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.controlButton {
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.18);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.popup {
+  min-width: 180px;
+}
