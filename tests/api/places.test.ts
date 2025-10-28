@@ -30,7 +30,7 @@ describe('GET /api/places', () => {
     const data = await fetchPlaces('openNow=1&hoursAt=2024-03-01T21:30:00-07:00');
     expect(data.items.length).toBeGreaterThan(0);
     const names = data.items.map((place) => place.name);
-    expect(names).not.toContain('Global Coffee Roasters');
+    expect(names).not.toContain('Borderline Brews Collective');
   });
 
   it('applies distance sorting and filtering', async () => {

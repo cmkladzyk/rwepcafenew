@@ -1,7 +1,7 @@
 [
   {
     "id": "global-coffee-01",
-    "name": "Global Coffee Roasters",
+    "name": "Borderline Brews Collective",
     "lat": 31.759,
     "lon": -106.491,
     "address": "301 N Stanton St, El Paso, TX",
@@ -28,7 +28,7 @@
   },
   {
     "id": "coffee-box-02",
-    "name": "Coffee Box",
+    "name": "Sun Mesa Sips",
     "lat": 31.7596,
     "lon": -106.4933,
     "address": "401 E San Antonio Ave, El Paso, TX",
@@ -54,7 +54,7 @@
   },
   {
     "id": "district-coffee-03",
-    "name": "District Coffee Co.",
+    "name": "Chamisa District Café",
     "lat": 31.7577,
     "lon": -106.4892,
     "address": "222 Texas Ave, El Paso, TX",
@@ -79,7 +79,7 @@
   },
   {
     "id": "2ten-coffee-04",
-    "name": "2Ten Coffee Roasters",
+    "name": "Desert Spur Roastery",
     "lat": 31.7726,
     "lon": -106.3758,
     "address": "3000 Gateway Blvd E, El Paso, TX",
@@ -106,7 +106,7 @@
   },
   {
     "id": "delicias-cafe-05",
-    "name": "Café de Aventura",
+    "name": "Café Cielo Dorado",
     "lat": 31.8313,
     "lon": -106.4408,
     "address": "10420 Montwood Dr, El Paso, TX",
@@ -132,7 +132,7 @@
   },
   {
     "id": "sombras-coffee-06",
-    "name": "Sombras Coffee & Tea",
+    "name": "Ocotillo Steamhouse",
     "lat": 31.799,
     "lon": -106.272,
     "address": "12360 Pebble Hills Blvd, El Paso, TX",
@@ -158,7 +158,7 @@
   },
   {
     "id": "kinleys-07",
-    "name": "Kinley's House Coffee",
+    "name": "Mesa Trail Mugworks",
     "lat": 31.7752,
     "lon": -106.4938,
     "address": "2231 N Mesa St, El Paso, TX",
@@ -184,7 +184,7 @@
   },
   {
     "id": "maverick-08",
-    "name": "Maverick's Coffee Shop",
+    "name": "Horizon Homestead Café",
     "lat": 31.8579,
     "lon": -106.4435,
     "address": "13371 Eastlake Blvd, Horizon City, TX",
@@ -210,7 +210,7 @@
   },
   {
     "id": "salt-coffee-09",
-    "name": "Salt + Honey Bakery Café",
+    "name": "Honeyed Yucca Bakery",
     "lat": 31.777,
     "lon": -106.4636,
     "address": "801 N Piedras St, El Paso, TX",
@@ -236,7 +236,7 @@
   },
   {
     "id": "integri-10",
-    "name": "Integrity Coffee",
+    "name": "Sage & Circuit Coffee Lab",
     "lat": 31.9141,
     "lon": -106.4263,
     "address": "1355 George Dieter Dr, El Paso, TX",
@@ -262,7 +262,7 @@
   },
   {
     "id": "gone-axle-11",
-    "name": "Gone Axle Coffee",
+    "name": "Copper Trestle Café",
     "lat": 31.8982,
     "lon": -106.6051,
     "address": "9000 N Loop Dr, El Paso, TX",
@@ -287,7 +287,7 @@
   },
   {
     "id": "star-city-12",
-    "name": "Star City Studios Lounge",
+    "name": "Starlit City Lounge",
     "lat": 31.7562,
     "lon": -106.4911,
     "address": "120 W Castellano Dr, El Paso, TX",
@@ -312,7 +312,7 @@
   },
   {
     "id": "bliss-brew-13",
-    "name": "Bliss Brew",
+    "name": "Blissfield Brewbar",
     "lat": 31.8136,
     "lon": -106.4145,
     "address": "8753 Dyer St, El Paso, TX",
@@ -338,7 +338,7 @@
   },
   {
     "id": "desert-moon-14",
-    "name": "Desert Moon Café",
+    "name": "Luna Dune Café",
     "lat": 31.6942,
     "lon": -106.2726,
     "address": "12135 Horizon Blvd, Socorro, TX",
@@ -364,7 +364,7 @@
   },
   {
     "id": "electric-lotus-15",
-    "name": "Electric Lotus",
+    "name": "Neon Ocotillo Café",
     "lat": 31.7897,
     "lon": -106.5081,
     "address": "2900 N Mesa St, El Paso, TX",
@@ -390,7 +390,7 @@
   },
   {
     "id": "order-up-16",
-    "name": "Order Up Café",
+    "name": "Summit Switch Café",
     "lat": 31.7821,
     "lon": -106.4164,
     "address": "1408 Zaragoza Rd, El Paso, TX",
@@ -415,7 +415,7 @@
   },
   {
     "id": "good-kahawa-17",
-    "name": "Good Kahawa",
+    "name": "Kindred Kahawa Collective",
     "lat": 31.8693,
     "lon": -106.4422,
     "address": "14750 Horizon Blvd, Horizon City, TX",
@@ -441,7 +441,7 @@
   },
   {
     "id": "perks-18",
-    "name": "Perks Coffee & More",
+    "name": "Percolate & Co.",
     "lat": 31.6687,
     "lon": -106.2661,
     "address": "9015 Alameda Ave, El Paso, TX",
@@ -467,7 +467,7 @@
   },
   {
     "id": "bayta-19",
-    "name": "Bayta Café",
+    "name": "Rio Brillante Café",
     "lat": 31.7778,
     "lon": -106.5098,
     "address": "2725 N Mesa St, El Paso, TX",
@@ -492,7 +492,7 @@
   },
   {
     "id": "latte-lane-20",
-    "name": "Latte Lane",
+    "name": "Latte Ladera",
     "lat": 31.8566,
     "lon": -106.5804,
     "address": "10280 Montana Ave, El Paso, TX",
